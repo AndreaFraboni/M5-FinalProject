@@ -9,25 +9,16 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float _smooth = 10f;
     [SerializeField] private float _rotationSpeed = 5f;
 
-    [Header("Footstep Audio")]
-    [SerializeField] private AudioSource _audioSource;
-    [SerializeField] private List<AudioClip> _grassWalkFootSteps;
-    [SerializeField] private List<AudioClip> _woodWalkFootSteps;
-    [SerializeField] private List<AudioClip> _dirtyWalkFootSteps;
-    [SerializeField] private List<AudioClip> _grassRunFootSteps;
-    [SerializeField] private List<AudioClip> _woodRunFootSteps;
-    [SerializeField] private List<AudioClip> _dirtyRunFootSteps;
-
     public string surfaceTag;
 
-    private Rigidbody _rb;    
-    
+    private Rigidbody _rb;
+
     private float _h, _v;
 
     private Vector3 _currentDirection;
-    
+
     private Camera _cam;
-    
+
     public bool isGrounded = false;
     public bool isRunning = false;
 
@@ -102,33 +93,30 @@ public class PlayerController : MonoBehaviour
     public void FootStepSound()
     {
         if (string.IsNullOrEmpty(surfaceTag)) return;
+        //List<AudioClip> list = null;
 
-        List<AudioClip> list = null;
-
-        if (!isRunning) 
+        if (!isRunning)
         {
-            if (surfaceTag == "Grass")
-                list = _grassWalkFootSteps;
-            else if (surfaceTag == "Wood")
-                list = _woodWalkFootSteps;
-            else if (surfaceTag == "Dirty")
-                list = _dirtyWalkFootSteps;
+            //if (surfaceTag == "Grass")
+            //    list = _grassWalkFootSteps;
+            //else if (surfaceTag == "Wood")
+            //    list = _woodWalkFootSteps;
+            //else if (surfaceTag == "Dirty")
+            //    list = _dirtyWalkFootSteps;
         }
         else
         {
-            if (surfaceTag == "Grass")
-                list = _grassRunFootSteps;
-            else if (surfaceTag == "Wood")
-                list = _woodRunFootSteps;
-            else if (surfaceTag == "Dirty")
-                list = _dirtyRunFootSteps;
+            //if (surfaceTag == "Grass")
+            //    list = _grassRunFootSteps;
+            //else if (surfaceTag == "Wood")
+            //    list = _woodRunFootSteps;
+            //else if (surfaceTag == "Dirty")
+            //    list = _dirtyRunFootSteps;
         }
 
-        if (list == null || list.Count == 0) return;
-
-        int index = Random.Range(0, list.Count);
-
-        _audioSource.PlayOneShot(list[index]);
+        //if (list == null || list.Count == 0) return;
+        //int index = Random.Range(0, list.Count);
+        //_audioSource.PlayOneShot(list[index]);
 
     }
 
