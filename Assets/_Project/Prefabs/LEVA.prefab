@@ -152,7 +152,7 @@ GameObject:
   - component: {fileID: 1583256271358532621}
   - component: {fileID: 1477731824381293418}
   m_Layer: 0
-  m_Name: blackrow
+  m_Name: row
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -201,7 +201,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ceb7a190d75c3e043bce1d90da91017e, type: 2}
+  - {fileID: 2100000, guid: 24fb1d86dcce6484c9ad331caef0da10, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
