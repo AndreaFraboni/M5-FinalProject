@@ -1,94 +1,61 @@
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
-using static UnityEngine.GraphicsBuffer;
+using UnityEngine.AI;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] float _speed = 5f;
-    [SerializeField] float _smooth = 10f;
-    [SerializeField] private float _rotationSpeed = 5f;
+    [SerializeField] private NavMeshAgent _meshAgent;
+    [SerializeField] private NavMeshPath _navMeshPath;
+
+    private Ray ray;
+    private RaycastHit hit;
+
+    private float x;
+    private float y;
+    private float z;
+    private float velocitySpeed;
+    private Vector3 _currentDirection;
+
+    private Camera _camera;
 
     public string surfaceTag;
 
-    private Rigidbody _rb;
-
-    private float _h, _v;
-
-    private Vector3 _currentDirection;
-
-    private Camera _cam;
-
     public bool isGrounded = false;
     public bool isRunning = false;
+    public bool isPaused = false;
 
     public Vector3 GetDirection() => _currentDirection;
 
+
     private void Awake()
     {
-        if (_rb == null) _rb = GetComponent<Rigidbody>();
-        _cam = Camera.main;
+        _camera = Camera.main;
+        _meshAgent = GetComponent<NavMeshAgent>();
     }
 
-    void Update()
+    private void Update()
     {
-        CheckInput();
-        CheckRun();
-    }
+        if (isPaused) return;
 
-    private void FixedUpdate()
-    {
-        Move();
-        Rotation();
-    }
+        x = _meshAgent.velocity.x;
+        y = _meshAgent.velocity.y;
+        z = _meshAgent.velocity.z;
+        velocitySpeed = x + z;
 
-    private void CheckInput()
-    {
-        _h = Input.GetAxisRaw("Horizontal");
-        _v = Input.GetAxisRaw("Vertical");
-
-        Vector3 targetDirection = Vector3.zero;
-        targetDirection = _cam.transform.forward * _v + _cam.transform.right * _h;
-        targetDirection.y = 0f;
-
-        if (targetDirection.magnitude > 0.01f) targetDirection.Normalize();
-
-        _currentDirection = Vector3.Lerp(_currentDirection, targetDirection, _smooth * Time.deltaTime);
-    }
-
-    private void CheckRun()
-    {
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetMouseButton(0))
         {
-            isRunning = true;
-        }
-        if (Input.GetKeyUp(KeyCode.LeftShift))
-        {
-            isRunning = false;
+            HandleAgent();
         }
     }
 
-    private void Move()
+    public void HandleAgent()
     {
-        if (isRunning)
+        Ray pointToRayMouse = _camera.ScreenPointToRay(Input.mousePosition);
+
+        if (Physics.Raycast(pointToRayMouse, out RaycastHit hit))
         {
-            _rb.MovePosition(transform.position + _currentDirection * ((_speed * 2) * Time.deltaTime));
-        }
-        else
-        {
-            _rb.MovePosition(transform.position + _currentDirection * (_speed * Time.deltaTime));
+            _meshAgent.destination = hit.point;
         }
     }
-
-    private void Rotation()
-    {
-        if (_currentDirection != Vector3.zero) //transform.forward = move; 
-        {
-            Quaternion _rotation = Quaternion.LookRotation(_currentDirection, Vector3.up);
-            transform.rotation = Quaternion.Slerp(transform.rotation, _rotation, Time.deltaTime * _rotationSpeed);
-        }
-    }
-
 
     public void FootStepSound()
     {
@@ -119,5 +86,7 @@ public class PlayerController : MonoBehaviour
         //_audioSource.PlayOneShot(list[index]);
 
     }
+
+
 
 }

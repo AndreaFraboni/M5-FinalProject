@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,7 +10,12 @@ public class GameUIManager : MonoBehaviour
     public GameObject WinnerBanner;
     public GameObject menuWinner;
 
-    public bool isPaused = false;
+    private PlayerController _pc;
+
+    private void Awake()
+    {
+        if (_pc == null) _pc = FindFirstObjectByType<PlayerController>();
+    }
 
     private void Start()
     {
@@ -28,7 +31,7 @@ public class GameUIManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (isPaused)
+            if (_pc.isPaused)
             {
                 Resume();
             }
@@ -42,15 +45,17 @@ public class GameUIManager : MonoBehaviour
     public void Pause()
     {
         pauseMenu.SetActive(true);
+        Cursor.visible = true;
         Time.timeScale = 0.0f;
-        isPaused = true;
+        _pc.isPaused = true;
     }
 
     public void Resume()
     {
         pauseMenu.SetActive(false);
         Time.timeScale = 1.0f;
-        isPaused = false;
+        _pc.isPaused = false;
+        Cursor.visible = false;
     }
 
     public void Restart()
