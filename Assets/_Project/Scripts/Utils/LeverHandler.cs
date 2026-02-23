@@ -34,8 +34,6 @@ public class LeverHandler : MonoBehaviour
                 _anim.SetTrigger("LeverDown");
                 isDown = true;
             }
-
-            OnLeverMoved.Invoke();
         }
 
     }
@@ -51,4 +49,10 @@ public class LeverHandler : MonoBehaviour
         _eCanvas.SetActive(false);
         isPlayerInside = false;
     }
+
+    public void AE_OnLeverMoved()
+    {
+        OnLeverMoved.Invoke();
+    }
+
 }
