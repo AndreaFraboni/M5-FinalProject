@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1484023713411823192}
   - component: {fileID: 7117070819229956543}
   - component: {fileID: 1426773892015806300}
+  - component: {fileID: 5479254178754636186}
   m_Layer: 0
   m_Name: Door_a
   m_TagString: Interact
@@ -119,6 +120,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6f4de8fd4cfbb14e941a314cb912831, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!208 &5479254178754636186
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002439254500310835}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1.241, y: 2.4090002, z: 0.289}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -1.153, y: 2.4090002, z: -0.2}
+  m_TimeToStationary: 0.5
 --- !u!1 &2451847989009260521
 GameObject:
   m_ObjectHideFlags: 0
@@ -163,7 +180,7 @@ GameObject:
   - component: {fileID: 1494234551778554293}
   - component: {fileID: 2119493570696085139}
   m_Layer: 0
-  m_Name: DOOR
+  m_Name: DOOR_A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
