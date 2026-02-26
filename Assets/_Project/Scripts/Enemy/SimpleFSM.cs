@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
@@ -19,6 +20,9 @@ public class SimpleSFM : MonoBehaviour
     [SerializeField] private float _wanderRadius = 10f;
     [SerializeField] private float _visonDistance = 10f;
 
+    [SerializeField] private float _fov = 90f; 
+    [SerializeField] private float _viewDistance = 10f;
+
     private NavMeshAgent _agent;
 
     private void Awake()
@@ -28,7 +32,7 @@ public class SimpleSFM : MonoBehaviour
 
     private void Update()
     {
-        switch(_state)
+        switch (_state)
         {
             case STATE.IDLE:
                 IdleUpdate();
@@ -42,7 +46,7 @@ public class SimpleSFM : MonoBehaviour
             case STATE.WANDER:
                 WanderUpdate();
                 break;
-        }        
+        }
     }
 
     public void SetState(STATE newState)
@@ -72,14 +76,22 @@ public class SimpleSFM : MonoBehaviour
 
     }
 
-    private bool CanSeeTarget()
+    private bool CanSeeTargetInFov()
     {
         if (_target == null) return false;
 
-        float distance = Vector3.Distance(transform.position, _target.position);
-        if (distance <= _visonDistance) return true;
+        Vector3 forward = transform.forward;
+        Vector3 dirToPlayer = (_target.position - transform.position);
 
-        return false;
+        float distance = Vector3.Distance(forward, dirToPlayer); 
+        if (dirToPlayer.magnitude > _viewDistance) return false; // player fuori dalla distanza massima di visuale dell'enemy
+
+        Vector3 dir = dirToPlayer.normalized;
+        float angle = Vector3.Angle(forward, dir);
+        if (angle > _fov * 0.5f) return false; // la direzione del player è ad un angolo fuori dall'ampiezza visuale dell'enemy rispetto al suo forward
+
+
+        return true; // se tutto non false alllora il player è nel fov
     }
 
 
