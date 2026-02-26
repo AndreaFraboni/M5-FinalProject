@@ -83,7 +83,6 @@ public class SimpleSFM : MonoBehaviour
         Vector3 forward = transform.forward;
         Vector3 dirToPlayer = (_target.position - transform.position);
 
-        float distance = Vector3.Distance(forward, dirToPlayer); 
         if (dirToPlayer.magnitude > _viewDistance) return false; // player fuori dalla distanza massima di visuale dell'enemy
 
         Vector3 dir = dirToPlayer.normalized;
