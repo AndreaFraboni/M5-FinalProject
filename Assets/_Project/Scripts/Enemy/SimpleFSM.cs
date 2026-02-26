@@ -87,10 +87,10 @@ public class SimpleSFM : MonoBehaviour
 
         Vector3 dir = dirToPlayer.normalized;
         float angle = Vector3.Angle(forward, dir);
-        if (angle > _fov * 0.5f) return false; // la direzione del player è ad un angolo fuori dall'ampiezza visuale dell'enemy rispetto al suo forward
+        if (angle > _fov * 0.5f) return false; // il playersi trova in direzione che è ad un angolo fuori dall'ampiezza visuale dell'enemy rispetto al suo forward
 
 
-        return true; // se tutto non false alllora il player è nel fov
+        return true; // se tutto non è false allora il player è nel fov
     }
 
 
