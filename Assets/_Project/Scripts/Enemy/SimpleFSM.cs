@@ -1,5 +1,4 @@
 using System;
-using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -20,20 +19,29 @@ public class SimpleSFM : MonoBehaviour
     [SerializeField] private float _wanderRadius = 10f;
     [SerializeField] private float _visonDistance = 10f;
 
-    [SerializeField] [Range(0f,180f)] private float _fov = 90f; 
+    [SerializeField][Range(0f, 180f)] private float _fov = 90f;
     [SerializeField] private float _viewDistance = 10f;
 
     [SerializeField] private NavMeshAgent _agent;
 
     [SerializeField] bool CanSeeTarget = false;
 
+    [SerializeField] private STATE _initialSate;
+
     private void Awake()
     {
         if (_agent == null) _agent = GetComponent<NavMeshAgent>();
     }
 
+    private void Start()
+    {
+        _initialSate = _state; // Save initial behaviour STATE setted in inspector.
+    }
+
     private void Update()
     {
+        CanSeeTarget = CanSeeTargetInFov();
+
         switch (_state)
         {
             case STATE.IDLE:
@@ -84,13 +92,22 @@ public class SimpleSFM : MonoBehaviour
 
         Vector3 forward = transform.forward;
         Vector3 dirToPlayer = (_target.position - transform.position);
+        if (dirToPlayer.magnitude > _viewDistance)
+        {
+            SetState(_initialSate);
+            return false; // player fuori dalla distanza massima di visuale dell'enemy
+        }
 
-        if (dirToPlayer.magnitude > _viewDistance) return false; // player fuori dalla distanza massima di visuale dell'enemy
 
         Vector3 dir = dirToPlayer.normalized;
         float angle = Vector3.Angle(forward, dir);
-        if (angle > _fov * 0.5f) return false; // il player si trova in direzione che è ad un angolo fuori dall'ampiezza visuale dell'enemy rispetto al suo forward
+        if (angle > _fov * 0.5f)
+        {
+            SetState(_initialSate);
+            return false; // il player si trova in direzione che è ad un angolo fuori dall'ampiezza visuale dell'enemy rispetto al suo forward
+        }
 
+        SetState(STATE.CHASE);
 
         return true; // se tutto non è false allora il player è nel fov
     }

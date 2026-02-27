@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3078499164694149732}
   - component: {fileID: 96184156527788405}
   - component: {fileID: 8084799116099227854}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,6 +173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _meshAgent: {fileID: 96184156527788405}
+  _camera: {fileID: 0}
   surfaceTag: 
   isGrounded: 0
   isRunning: 0
@@ -189,7 +190,7 @@ GameObject:
   - component: {fileID: 7096583766158939536}
   - component: {fileID: 5777142252133158041}
   - component: {fileID: 628791145543792421}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -291,7 +292,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 287567493900864366}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
