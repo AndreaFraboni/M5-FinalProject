@@ -13,17 +13,19 @@ public class SimpleSFM : MonoBehaviour
         WANDER
     }
 
-    [SerializeField] private STATE _state = STATE.WANDER;
+    [SerializeField] private STATE _state = STATE.IDLE;
 
     [SerializeField] private Transform _target;
 
     [SerializeField] private float _wanderRadius = 10f;
     [SerializeField] private float _visonDistance = 10f;
 
-    [SerializeField] private float _fov = 90f; 
+    [SerializeField] [Range(0f,180f)] private float _fov = 90f; 
     [SerializeField] private float _viewDistance = 10f;
 
-    private NavMeshAgent _agent;
+    [SerializeField] private NavMeshAgent _agent;
+
+    [SerializeField] bool CanSeeTarget = false;
 
     private void Awake()
     {
@@ -87,7 +89,7 @@ public class SimpleSFM : MonoBehaviour
 
         Vector3 dir = dirToPlayer.normalized;
         float angle = Vector3.Angle(forward, dir);
-        if (angle > _fov * 0.5f) return false; // il playersi trova in direzione che è ad un angolo fuori dall'ampiezza visuale dell'enemy rispetto al suo forward
+        if (angle > _fov * 0.5f) return false; // il player si trova in direzione che è ad un angolo fuori dall'ampiezza visuale dell'enemy rispetto al suo forward
 
 
         return true; // se tutto non è false allora il player è nel fov
