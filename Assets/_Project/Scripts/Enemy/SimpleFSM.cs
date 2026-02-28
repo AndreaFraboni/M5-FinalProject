@@ -12,6 +12,10 @@ public class SimpleSFM : MonoBehaviour
         WANDER
     }
 
+    [SerializeField] private Transform[] _wayPoints;
+    private int _currentWayPoint = 0;
+    private Vector3 _currentDestination;
+
     [SerializeField] private STATE _state = STATE.IDLE;
 
     [SerializeField] private Transform _target;
@@ -36,6 +40,12 @@ public class SimpleSFM : MonoBehaviour
     private void Start()
     {
         _initialSate = _state; // Save initial behaviour STATE setted in inspector.
+
+        if (_wayPoints != null && _wayPoints.Length > 0)
+        {
+            _currentDestination = _wayPoints[0].position;
+        }
+
     }
 
     private void Update()
@@ -73,12 +83,34 @@ public class SimpleSFM : MonoBehaviour
 
     private void PatrolUpdate()
     {
+        if (_wayPoints == null || _wayPoints.Length == 0)
+        {
+            _agent.isStopped = true;
+            return;
+        }
 
+        if (_agent.pathPending) return;
+
+        if (_agent.remainingDistance <= _agent.stoppingDistance)
+        {
+            _currentWayPoint++;
+
+            if (_currentWayPoint >= _wayPoints.Length)
+            {
+                _currentWayPoint = 0;
+            }
+
+            _currentDestination = _wayPoints[_currentWayPoint].position;
+        }
+
+        _agent.SetDestination(_currentDestination);
     }
 
     private void ChaseUpdate()
     {
+        if (_target == null) return;
 
+        _agent.SetDestination(_target.position);
     }
 
     private void WanderUpdate()
@@ -106,6 +138,11 @@ public class SimpleSFM : MonoBehaviour
             SetState(_initialSate);
             return false; // il player si trova in direzione che è ad un angolo fuori dall'ampiezza visuale dell'enemy rispetto al suo forward
         }
+
+        //if (Physics.Raycast(transform.position, dirToPlayer.normalized, out RaycastHit hit, _viewDistance))
+        // TO DO 
+
+        CanSeeTarget = true;
 
         SetState(STATE.CHASE);
 

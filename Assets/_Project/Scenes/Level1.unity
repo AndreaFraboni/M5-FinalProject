@@ -5652,7 +5652,7 @@ Transform:
   m_GameObject: {fileID: 147440969}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.3, y: 1.5102062, z: -7.8}
+  m_LocalPosition: {x: 11.3, y: 1.86, z: -7.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -69085,15 +69085,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07cdbf61596b7c54a8d4e4571e6e0577, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _wayPoints:
+  - {fileID: 1069502245}
+  - {fileID: 1090825946}
+  - {fileID: 486761883}
+  - {fileID: 1574378917}
   _state: 1
   _target: {fileID: 2045851845}
   _wanderRadius: 10
-  _visonDistance: 20
+  _visonDistance: 30
   _fov: 90
-  _viewDistance: 10
+  _viewDistance: 20
   _agent: {fileID: 2137316884}
   CanSeeTarget: 0
-  _initialSate: 0
+  _initialSate: 1
 --- !u!1001 &2137328479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69927,7 +69932,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.027, y: 0.13577516}
   m_AnchorMax: {x: 0.97751963, y: 0.88361245}
-  m_AnchoredPosition: {x: -0.7070389, y: -0.085998535}
+  m_AnchoredPosition: {x: -0.70703125, y: -0.085998535}
   m_SizeDelta: {x: -1.0129995, y: -0.25599957}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &392692413896508827
@@ -73421,7 +73426,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.21770895, y: 0.3242013}
   m_AnchorMax: {x: 0.8441652, y: 0.8418141}
-  m_AnchoredPosition: {x: -9.88028, y: 2.5}
+  m_AnchoredPosition: {x: -9.880249, y: 2.5}
   m_SizeDelta: {x: -36.908, y: -45.744}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &3697095871577321431
