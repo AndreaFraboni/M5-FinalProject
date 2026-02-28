@@ -16643,7 +16643,7 @@ Transform:
   m_GameObject: {fileID: 508756735}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5200237, y: -0.27620742, z: 0.18241443, w: 0.78740704}
-  m_LocalPosition: {x: 27.54, y: 31.073, z: 3.4099998}
+  m_LocalPosition: {x: 27.54, y: 31.073, z: 12.549999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -54292,7 +54292,7 @@ Transform:
   m_GameObject: {fileID: 1654121706}
   serializedVersion: 2
   m_LocalRotation: {x: 0.52002364, y: -0.27620745, z: 0.18241446, w: 0.78740704}
-  m_LocalPosition: {x: 27.54, y: 31.073, z: 3.4099998}
+  m_LocalPosition: {x: 27.54, y: 31.073, z: 12.549999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -69090,14 +69090,18 @@ MonoBehaviour:
   - {fileID: 1090825946}
   - {fileID: 486761883}
   - {fileID: 1574378917}
-  _state: 1
+  _state: 3
+  _initialSate: 1
   _target: {fileID: 2045851845}
   _eyes: {fileID: 1333173353}
+  _wanderRadius: 5
+  _wanderRepatTime: 1
+  _timer: 0
+  _rotateInterval: 3
   _fov: 90
   _viewDistance: 20
   _agent: {fileID: 2137316884}
   CanSeeTarget: 0
-  _initialSate: 1
 --- !u!1001 &2137328479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69640,7 +69644,7 @@ PrefabInstance:
     - target: {fileID: 287567493900864366, guid: 2166215297e17b14abc4c8dcddb739a1,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.41
+      value: 22.55
       objectReference: {fileID: 0}
     - target: {fileID: 287567493900864366, guid: 2166215297e17b14abc4c8dcddb739a1,
         type: 3}
