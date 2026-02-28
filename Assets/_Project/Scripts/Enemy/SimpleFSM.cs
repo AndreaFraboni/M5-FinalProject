@@ -14,17 +14,19 @@ public class SimpleSFM : MonoBehaviour
 
     [SerializeField] private Transform[] _wayPoints;
     private int _currentWayPoint = 0;
+
     private Vector3 _currentDestination;
 
     [SerializeField] private STATE _state = STATE.IDLE;
 
     [SerializeField] private Transform _target;
+    [SerializeField] private Transform _eyes;
 
-    [SerializeField] private float _wanderRadius = 10f;
-    [SerializeField] private float _visonDistance = 10f;
+    //[SerializeField] private float _wanderRadius = 10f;
+    //[SerializeField] private float _visonDistance = 10f;
 
     [SerializeField][Range(0f, 180f)] private float _fov = 90f;
-    [SerializeField] private float _viewDistance = 10f;
+    [SerializeField][Range(1f, 20f)] private float _viewDistance = 10f;
 
     [SerializeField] private NavMeshAgent _agent;
 
@@ -45,7 +47,28 @@ public class SimpleSFM : MonoBehaviour
         {
             _currentDestination = _wayPoints[0].position;
         }
+    }
 
+    void OnDrawGizmos()
+    {
+        Vector3 origin = _eyes.position;
+
+        Gizmos.color = Color.red;
+
+        Gizmos.DrawLine(origin, origin + transform.forward * _viewDistance);
+
+        Vector3 left = DirFromAngle(-_fov * 0.5f);
+        Vector3 right = DirFromAngle(_fov * 0.5f);
+
+        Gizmos.DrawLine(origin, origin + left * _viewDistance);
+        Gizmos.DrawLine(origin, origin + right * _viewDistance);
+    }
+
+    Vector3 DirFromAngle(float angle)
+    {
+        angle = angle + transform.eulerAngles.y;
+        float radiant = angle * Mathf.Deg2Rad;
+        return new Vector3(Mathf.Sin(radiant), 0f, Mathf.Cos(radiant));
     }
 
     private void Update()
