@@ -757,6 +757,8 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 69902a5bc0a3c994a9eeb8aa1b463b71, type: 3}
   - name: GameOverMusic
     clip: {fileID: 8300000, guid: b20008b8737333146a447ee24178fa90, type: 3}
+  - name: WinnerMusic
+    clip: {fileID: 8300000, guid: d65e6862d38abca48a7541b26e50a913, type: 3}
   sfxSounds:
   - name: MouseClickSound
     clip: {fileID: 8300000, guid: 2639010a0f34a7d409a1280880bea488, type: 3}

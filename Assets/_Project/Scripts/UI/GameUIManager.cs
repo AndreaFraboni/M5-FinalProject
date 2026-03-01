@@ -101,6 +101,7 @@ public class GameUIManager : MonoBehaviour
         WinnerBanner.SetActive(false);
         AudioManager.Instance.PlayMusic("WinnerMusic");
         Time.timeScale = 0;
+        Cursor.visible = true;
         menuWinner.SetActive(true);
     }
 
