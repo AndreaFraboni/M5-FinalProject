@@ -18,20 +18,25 @@ PrefabInstance:
       propertyPath: _initialSate
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 869683359252326710, guid: 41d3996ccd0fe3f409c00bbc30d491c8,
+        type: 3}
+      propertyPath: _wayPoints.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2213151776248954115, guid: 41d3996ccd0fe3f409c00bbc30d491c8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 7.5110335
       objectReference: {fileID: 0}
     - target: {fileID: 2213151776248954115, guid: 41d3996ccd0fe3f409c00bbc30d491c8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.1839046
       objectReference: {fileID: 0}
     - target: {fileID: 2213151776248954115, guid: 41d3996ccd0fe3f409c00bbc30d491c8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 3.8465278
       objectReference: {fileID: 0}
     - target: {fileID: 2213151776248954115, guid: 41d3996ccd0fe3f409c00bbc30d491c8,
         type: 3}

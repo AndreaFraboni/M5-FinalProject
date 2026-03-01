@@ -279,6 +279,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _meshAgent: {fileID: 4623911192222497272}
   _camera: {fileID: 0}
+  _GameUIManager: {fileID: 0}
   surfaceTag: 
   isGrounded: 0
   isRunning: 0
