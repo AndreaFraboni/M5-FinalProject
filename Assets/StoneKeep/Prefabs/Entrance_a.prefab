@@ -518,7 +518,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: DOOR_A
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1426773892015806300, guid: 036f3318746de244d97ee3a4f1d40d88, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

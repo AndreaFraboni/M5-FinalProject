@@ -524,6 +524,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -788,6 +792,54 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 27003328}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &28616828
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 28616829}
+  m_Layer: 0
+  m_Name: LEVEL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &28616829
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28616828}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.1311107, y: 5.566559, z: 16.421099}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 829409125}
+  - {fileID: 1486216733}
+  - {fileID: 854375803}
+  - {fileID: 603566819}
+  - {fileID: 735598959}
+  - {fileID: 1088769753}
+  - {fileID: 1677610844}
+  - {fileID: 1634029436}
+  - {fileID: 787352863}
+  - {fileID: 1781285543}
+  - {fileID: 1343518314}
+  - {fileID: 392216329}
+  - {fileID: 1131597879}
+  - {fileID: 1541823483}
+  - {fileID: 1759188681}
+  - {fileID: 1296245391}
+  - {fileID: 115804620}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &28761799
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1704,6 +1756,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -1831,6 +1887,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (90)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2556,6 +2616,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -3137,6 +3201,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3783,7 +3851,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 115804620}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Spikes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3798,8 +3866,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 115804619}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 62.4529, y: 22.40476, z: 12.69318}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 68.58401, y: 16.838202, z: -3.7279186}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3903,7 +3971,7 @@ Transform:
   - {fileID: 74082293}
   - {fileID: 1760902943}
   - {fileID: 552879168}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 28616829}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &117890151
 PrefabInstance:
@@ -3916,6 +3984,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4044,6 +4116,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5816,6 +5892,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -7211,6 +7291,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -7846,6 +7930,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9530,7 +9618,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 28616829}
     m_Modifications:
     - target: {fileID: 114372, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_Name
@@ -9538,15 +9626,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.7
+      value: 15.83111
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.08
+      value: -5.486559
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 15.79
+      value: -0.63109875
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9554,15 +9642,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -10426,6 +10514,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -10802,6 +10894,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -11136,6 +11232,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11619,6 +11719,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12323,6 +12427,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -12694,8 +12802,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 392216328}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.98793, y: 81.81068, z: 126.58}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 11.1190405, y: 76.24412, z: 110.158905}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12721,7 +12829,7 @@ Transform:
   - {fileID: 2039371788}
   - {fileID: 1707702248}
   - {fileID: 1656467406}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 28616829}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &394005757 stripped
 Transform:
@@ -13082,6 +13190,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (97)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13720,6 +13832,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -14261,6 +14377,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15394,6 +15514,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (88)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -15676,7 +15800,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 28616829}
     m_Modifications:
     - target: {fileID: 114372, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_Name
@@ -15684,15 +15808,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.55
+      value: 22.68111
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.08
+      value: -5.486559
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 15.79
+      value: -0.63109875
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalRotation.w
@@ -15700,15 +15824,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -16196,6 +16320,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -16329,6 +16457,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16611,7 +16743,7 @@ Transform:
   m_GameObject: {fileID: 508756735}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5200237, y: -0.27620742, z: 0.18241443, w: 0.78740704}
-  m_LocalPosition: {x: 27.54, y: 31.073, z: 12.549999}
+  m_LocalPosition: {x: 27.4, y: 31.25, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17096,6 +17228,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (98)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17624,6 +17760,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19176,6 +19316,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -19403,6 +19547,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19709,6 +19857,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (93)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -19754,6 +19906,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+--- !u!4 &603566819 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208,
+    type: 3}
+  m_PrefabInstance: {fileID: 481038613}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &604482178
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20482,6 +20640,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -20709,6 +20871,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -20836,6 +21002,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21112,6 +21282,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23226,7 +23400,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 28616829}
     m_Modifications:
     - target: {fileID: 114372, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_Name
@@ -23234,15 +23408,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 36.45
+      value: 42.581112
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.08
+      value: -5.486559
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 15.79
+      value: -0.63109875
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalRotation.w
@@ -23250,15 +23424,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -23513,6 +23687,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24344,6 +24522,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 735414442}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &735598959 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208,
+    type: 3}
+  m_PrefabInstance: {fileID: 274591263}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &736512875
 GameObject:
   m_ObjectHideFlags: 0
@@ -24603,6 +24787,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25488,6 +25676,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -25912,6 +26104,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -26195,8 +26391,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 787352862}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.98793, y: 81.81068, z: 35.83}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 11.1190405, y: 76.24412, z: 19.408903}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -26222,7 +26418,7 @@ Transform:
   - {fileID: 1092673630}
   - {fileID: 533540877}
   - {fileID: 2019996551}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 28616829}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &788545082
 PrefabInstance:
@@ -26235,6 +26431,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27369,6 +27569,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -27651,6 +27855,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -27766,6 +27974,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 498150, guid: 33d79ecdc4a00e548b463adb67a551cb,
     type: 3}
   m_PrefabInstance: {fileID: 821900790}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &829409125 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6604559303151731497, guid: f92ff20e7979c0346828a7ce6aa10ca1,
+    type: 3}
+  m_PrefabInstance: {fileID: 457769905677221515}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &831776543
 PrefabInstance:
@@ -27955,6 +28169,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28409,6 +28627,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -28466,6 +28688,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (92)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -28522,6 +28748,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28822,6 +29052,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (83)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -28937,6 +29171,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 498150, guid: 33d79ecdc4a00e548b463adb67a551cb,
     type: 3}
   m_PrefabInstance: {fileID: 853512961}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &854375803 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208,
+    type: 3}
+  m_PrefabInstance: {fileID: 705758511}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &855004301
 GameObject:
@@ -29274,6 +29514,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29858,6 +30102,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -30416,6 +30664,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32749,6 +33001,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -34030,7 +34286,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 28616829}
     m_Modifications:
     - target: {fileID: 114372, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_Name
@@ -34038,15 +34294,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 29.61
+      value: 35.74111
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.08
+      value: -5.486559
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 15.79
+      value: -0.63109875
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalRotation.w
@@ -34054,15 +34310,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -34199,6 +34455,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -34320,6 +34580,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (91)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -35313,6 +35577,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1109159506}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1088769753 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208,
+    type: 3}
+  m_PrefabInstance: {fileID: 2077761617}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1090316386 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 498150, guid: 33d79ecdc4a00e548b463adb67a551cb,
@@ -36166,6 +36436,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -36306,6 +36580,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -36830,6 +37108,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -37491,6 +37773,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -37619,6 +37905,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -37735,6 +38025,37 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1127328106}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1128548126
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1128548127}
+  m_Layer: 0
+  m_Name: ----------- Characters ----------------
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1128548127
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128548126}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.7735015, y: 0.8454554, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1129001040
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37830,8 +38151,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1131597878}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.98793, y: 81.81068, z: 35.83}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 11.1190405, y: 76.24412, z: 19.408903}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -37857,7 +38178,7 @@ Transform:
   - {fileID: 1823007670}
   - {fileID: 1516337535}
   - {fileID: 1183522308}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 28616829}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1134009660 stripped
 Transform:
@@ -37882,6 +38203,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -39064,6 +39389,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (85)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -39729,6 +40058,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -40134,6 +40467,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -40332,6 +40669,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40602,6 +40943,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40879,6 +41224,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -40935,6 +41284,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -41277,6 +41630,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -41571,6 +41928,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (76)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -43275,6 +43636,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -43344,8 +43709,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1296245390}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -62.199997, y: 81.81068, z: 126.58}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -56.068886, y: 76.24412, z: 110.158905}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -43371,7 +43736,7 @@ Transform:
   - {fileID: 1324672030}
   - {fileID: 767646302}
   - {fileID: 1290967051}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 28616829}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1303999545
 GameObject:
@@ -44443,6 +44808,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -45026,111 +45395,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1330953625}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1333173352
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1333173353}
-  - component: {fileID: 1333173356}
-  - component: {fileID: 1333173355}
-  - component: {fileID: 1333173354}
-  m_Layer: 0
-  m_Name: Eyes
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1333173353
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1333173352}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.05, y: 0.33, z: 0.39}
-  m_LocalScale: {x: 0.47606632, y: 0.47606632, z: 0.47606632}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2137316882}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1333173354
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1333173352}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1333173355
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1333173352}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 24fb1d86dcce6484c9ad331caef0da10, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1333173356
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1333173352}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1334911794
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45142,6 +45406,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (99)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -45459,8 +45727,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1343518313}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.98793, y: 81.81068, z: 81.17648}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 11.1190405, y: 76.24412, z: 64.75539}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -45486,7 +45754,7 @@ Transform:
   - {fileID: 97267594}
   - {fileID: 1273709284}
   - {fileID: 1236324884}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 28616829}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1348536075
 PrefabInstance:
@@ -46097,6 +46365,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -46515,6 +46787,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -46643,6 +46919,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (96)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -46770,6 +47050,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -47017,6 +47301,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -47244,6 +47532,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -47728,6 +48020,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -48062,6 +48358,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (94)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -48404,6 +48704,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -48656,6 +48960,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -48747,6 +49055,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -48876,6 +49188,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -48921,6 +49237,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+--- !u!4 &1486216733 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208,
+    type: 3}
+  m_PrefabInstance: {fileID: 1047253521}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1486241609
 GameObject:
   m_ObjectHideFlags: 0
@@ -49210,6 +49532,37 @@ Transform:
   - {fileID: 617774151}
   m_Father: {fileID: 1131597879}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1500716526
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1500716527}
+  m_Layer: 0
+  m_Name: ---------------- LEVEL ---------------
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1500716527
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500716526}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.7735015, y: 0.8454554, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1502015623
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49428,6 +49781,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -50230,6 +50587,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -50494,8 +50855,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1541823482}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -62.199997, y: 81.81068, z: 35.83}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -56.068886, y: 76.24412, z: 19.408903}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -50521,7 +50882,7 @@ Transform:
   - {fileID: 1283359020}
   - {fileID: 557674809}
   - {fileID: 1342360401}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 28616829}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1543922773 stripped
 Transform:
@@ -50841,6 +51202,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (84)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -51496,6 +51861,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -52871,6 +53240,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -53004,6 +53377,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -53311,8 +53688,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1634029435}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.98793, y: 81.81068, z: 81.17648}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 11.1190405, y: 76.24412, z: 64.75539}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -53338,7 +53715,7 @@ Transform:
   - {fileID: 1851513580}
   - {fileID: 147439550}
   - {fileID: 968459568}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 28616829}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1635895603 stripped
 Transform:
@@ -53357,6 +53734,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -53763,6 +54144,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54228,7 +54613,7 @@ Transform:
   m_GameObject: {fileID: 1654121706}
   serializedVersion: 2
   m_LocalRotation: {x: 0.52002364, y: -0.27620745, z: 0.18241446, w: 0.78740704}
-  m_LocalPosition: {x: 27.54, y: 31.073, z: 12.549999}
+  m_LocalPosition: {x: 27.4, y: 31.25, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -54317,6 +54702,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (87)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54734,6 +55123,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -55057,6 +55450,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33d79ecdc4a00e548b463adb67a551cb, type: 3}
+--- !u!4 &1677610844 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 403472, guid: 52f358ade91b6fe4aad22cfda27621b9,
+    type: 3}
+  m_PrefabInstance: {fileID: 1825758202}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1679855331 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085,
@@ -55180,6 +55579,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (95)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -55598,6 +56001,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -56607,6 +57014,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -57225,8 +57636,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1759188680}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -62.2, y: 81.81068, z: 81.17648}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -56.06889, y: 76.24412, z: 64.75539}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -57252,7 +57663,7 @@ Transform:
   - {fileID: 1515527463}
   - {fileID: 1924374868}
   - {fileID: 1535831502}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 28616829}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1760140747
 PrefabInstance:
@@ -58100,8 +58511,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1781285542}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.98793, y: 81.81068, z: 126.58}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 11.1190405, y: 76.24412, z: 110.158905}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -58127,7 +58538,7 @@ Transform:
   - {fileID: 679273689}
   - {fileID: 263772777}
   - {fileID: 2130011077}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 28616829}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1781426382 stripped
 Transform:
@@ -58991,6 +59402,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -59231,7 +59646,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 28616829}
     m_Modifications:
     - target: {fileID: 131556, guid: 52f358ade91b6fe4aad22cfda27621b9, type: 3}
       propertyPath: m_Name
@@ -59239,15 +59654,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 403472, guid: 52f358ade91b6fe4aad22cfda27621b9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 40.85
+      value: 46.98111
       objectReference: {fileID: 0}
     - target: {fileID: 403472, guid: 52f358ade91b6fe4aad22cfda27621b9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -5.566559
       objectReference: {fileID: 0}
     - target: {fileID: 403472, guid: 52f358ade91b6fe4aad22cfda27621b9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14.81
+      value: -1.6110983
       objectReference: {fileID: 0}
     - target: {fileID: 403472, guid: 52f358ade91b6fe4aad22cfda27621b9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -59255,7 +59670,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 403472, guid: 52f358ade91b6fe4aad22cfda27621b9, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 403472, guid: 52f358ade91b6fe4aad22cfda27621b9, type: 3}
       propertyPath: m_LocalRotation.y
@@ -59263,7 +59678,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 403472, guid: 52f358ade91b6fe4aad22cfda27621b9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 403472, guid: 52f358ade91b6fe4aad22cfda27621b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -61535,6 +61950,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -62236,6 +62655,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -62617,6 +63040,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -63071,6 +63498,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (82)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -63524,6 +63955,43 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1949284631}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1949742689
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1949742690}
+  m_Layer: 0
+  m_Name: ----------------- UI ------------------
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1949742690
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949742689}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.7735015, y: 0.8454554, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1950049629 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 287567493900864366, guid: 2166215297e17b14abc4c8dcddb739a1,
+    type: 3}
+  m_PrefabInstance: {fileID: 178757708575226630}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1950598919
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -63731,38 +64199,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1958808701}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1961106929
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1961106930}
-  m_Layer: 0
-  m_Name: Enemy
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1961106930
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1961106929}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.547003, y: 1.8809109, z: 0.3599044}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2137316882}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1961226954
 GameObject:
   m_ObjectHideFlags: 0
@@ -65075,6 +65511,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_spikes (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.91428
@@ -65131,6 +65571,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -65707,6 +66151,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -66807,23 +67255,27 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 28616829}
     m_Modifications:
     - target: {fileID: 114372, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_Name
       value: Wall_a_ii (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 114372, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.7399995
+      value: 8.87111
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.08
+      value: -5.486559
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 15.79
+      value: -0.63109875
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalRotation.w
@@ -66831,15 +67283,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 479428, guid: 82af030887cf1354cb58c44a0ede7208, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -67666,6 +68118,10 @@ PrefabInstance:
     - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_Name
       value: Wood_spikes (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156702, guid: 591db76eb01361c498061a9cb852f085, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492130, guid: 591db76eb01361c498061a9cb852f085, type: 3}
       propertyPath: m_LocalPosition.x
@@ -68740,275 +69196,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2137010699}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2137316881
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2137316882}
-  - component: {fileID: 2137316887}
-  - component: {fileID: 2137316886}
-  - component: {fileID: 2137316885}
-  - component: {fileID: 2137316884}
-  - component: {fileID: 2137316888}
-  - component: {fileID: 2137316889}
-  m_Layer: 0
-  m_Name: Enemy
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2137316882
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2137316881}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.69, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1333173353}
-  m_Father: {fileID: 1961106930}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!195 &2137316884
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2137316881}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 1
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
---- !u!136 &2137316885
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2137316881}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &2137316886
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2137316881}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: d5628402602c3404d9ca8865c3b8cc3a, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &2137316887
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2137316881}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!120 &2137316888
-LineRenderer:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2137316881}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 0
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Positions:
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 1}
-  m_Parameters:
-    serializedVersion: 3
-    widthMultiplier: 1
-    widthCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    colorGradient:
-      serializedVersion: 2
-      key0: {r: 0.6981132, g: 0.11453396, b: 0, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 1}
-      key2: {r: 0, g: 0, b: 0, a: 0}
-      key3: {r: 0, g: 0, b: 0, a: 0}
-      key4: {r: 0, g: 0, b: 0, a: 0}
-      key5: {r: 0, g: 0, b: 0, a: 0}
-      key6: {r: 0, g: 0, b: 0, a: 0}
-      key7: {r: 0, g: 0, b: 0, a: 0}
-      ctime0: 0
-      ctime1: 65535
-      ctime2: 0
-      ctime3: 0
-      ctime4: 0
-      ctime5: 0
-      ctime6: 0
-      ctime7: 0
-      atime0: 34048
-      atime1: 65535
-      atime2: 0
-      atime3: 0
-      atime4: 0
-      atime5: 0
-      atime6: 0
-      atime7: 0
-      m_Mode: 0
-      m_ColorSpace: 0
-      m_NumColorKeys: 2
-      m_NumAlphaKeys: 2
-    numCornerVertices: 0
-    numCapVertices: 0
-    alignment: 0
-    textureMode: 0
-    textureScale: {x: 1, y: 1}
-    shadowBias: 0.5
-    generateLightingData: 0
-  m_MaskInteraction: 0
-  m_UseWorldSpace: 1
-  m_Loop: 0
-  m_ApplyActiveColorSpace: 1
---- !u!114 &2137316889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2137316881}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07cdbf61596b7c54a8d4e4571e6e0577, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _wayPoints:
-  - {fileID: 1069502245}
-  - {fileID: 1090825946}
-  - {fileID: 486761883}
-  - {fileID: 1574378917}
-  _state: 3
-  _initialSate: 1
-  _target: {fileID: 2045851845}
-  _eyes: {fileID: 1333173353}
-  _obstacleLayer:
-    serializedVersion: 2
-    m_Bits: 256
-  _wanderRadius: 5
-  _wanderRepatTime: 1
-  _timer: 0
-  _rotateInterval: 3
-  _fov: 90
-  _viewDistance: 20
-  _agent: {fileID: 2137316884}
-  CanSeeTarget: 0
 --- !u!1001 &2137328479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69541,17 +69728,17 @@ PrefabInstance:
     - target: {fileID: 287567493900864366, guid: 2166215297e17b14abc4c8dcddb739a1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 19.54
+      value: 19.4
       objectReference: {fileID: 0}
     - target: {fileID: 287567493900864366, guid: 2166215297e17b14abc4c8dcddb739a1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.073
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 287567493900864366, guid: 2166215297e17b14abc4c8dcddb739a1,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 22.55
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 287567493900864366, guid: 2166215297e17b14abc4c8dcddb739a1,
         type: 3}
@@ -69990,7 +70177,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 28616829}
     m_Modifications:
     - target: {fileID: 4632763300105216288, guid: f92ff20e7979c0346828a7ce6aa10ca1,
         type: 3}
@@ -70000,17 +70187,17 @@ PrefabInstance:
     - target: {fileID: 6604559303151731497, guid: f92ff20e7979c0346828a7ce6aa10ca1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.29
+      value: 22.421112
       objectReference: {fileID: 0}
     - target: {fileID: 6604559303151731497, guid: f92ff20e7979c0346828a7ce6aa10ca1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.58
+      value: -1.9865589
       objectReference: {fileID: 0}
     - target: {fileID: 6604559303151731497, guid: f92ff20e7979c0346828a7ce6aa10ca1,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 15.802782
+      value: -0.61831665
       objectReference: {fileID: 0}
     - target: {fileID: 6604559303151731497, guid: f92ff20e7979c0346828a7ce6aa10ca1,
         type: 3}
@@ -70020,7 +70207,7 @@ PrefabInstance:
     - target: {fileID: 6604559303151731497, guid: f92ff20e7979c0346828a7ce6aa10ca1,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6604559303151731497, guid: f92ff20e7979c0346828a7ce6aa10ca1,
         type: 3}
@@ -70030,7 +70217,7 @@ PrefabInstance:
     - target: {fileID: 6604559303151731497, guid: f92ff20e7979c0346828a7ce6aa10ca1,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6604559303151731497, guid: f92ff20e7979c0346828a7ce6aa10ca1,
         type: 3}
@@ -70275,6 +70462,48 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!23 &705166276669764395
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8527518133360466092}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 24fb1d86dcce6484c9ad331caef0da10, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!222 &741359127517250947
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -71063,6 +71292,29 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8156061983385164831}
   m_CullTransparentMesh: 1
+--- !u!136 &1327610602591488683
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5177138329153636703}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!224 &1346746986739091997
 RectTransform:
   m_ObjectHideFlags: 0
@@ -71790,6 +72042,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1452474412327331020}
   m_CullTransparentMesh: 1
+--- !u!1 &1920853534391513141
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6492059429798245596}
+  m_Layer: 7
+  m_Name: Enemy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!114 &1975674200908235209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72564,7 +72832,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.16554093, y: 0.3795061}
   m_AnchorMax: {x: 0.845, y: 1}
-  m_AnchoredPosition: {x: -0.9992218, y: -0.000076293945}
+  m_AnchoredPosition: {x: -0.9989319, y: -0.000076293945}
   m_SizeDelta: {x: 0, y: -1.662}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &2984074305137289599
@@ -74034,6 +74302,14 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5274163964290647461}
   m_CullTransparentMesh: 1
+--- !u!33 &4294720924252727842
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8527518133360466092}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!114 &4319257052020234218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74232,7 +74508,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.23956165, y: 0.22959027}
   m_AnchorMax: {x: 0.7594212, y: 0.33666593}
-  m_AnchoredPosition: {x: 0.5, y: -1.5000153}
+  m_AnchoredPosition: {x: 0.5, y: -1.5}
   m_SizeDelta: {x: -5, y: -7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4484297563389642398
@@ -74499,7 +74775,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.88900006, y: 0.016}
   m_AnchorMax: {x: 0.99447936, y: 0.09655692}
-  m_AnchoredPosition: {x: 5.65625, y: -5.999878}
+  m_AnchoredPosition: {x: 5.65625, y: -5.9999084}
   m_SizeDelta: {x: -8.656097, y: -11}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &4829051195811549781
@@ -74799,6 +75075,28 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &5177138329153636703
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6822147636824395220}
+  - component: {fileID: 6049858071932831076}
+  - component: {fileID: 6996204343178142651}
+  - component: {fileID: 1327610602591488683}
+  - component: {fileID: 8312745602343372246}
+  - component: {fileID: 6390746684815343303}
+  - component: {fileID: 8312745602343372247}
+  m_Layer: 7
+  m_Name: Body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &5196546953530794916
 GameObject:
   m_ObjectHideFlags: 0
@@ -75289,6 +75587,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!65 &5862598800614099095
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8527518133360466092}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!224 &5922361621613081203
 RectTransform:
   m_ObjectHideFlags: 0
@@ -75364,6 +75683,14 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!33 &6049858071932831076
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5177138329153636703}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!224 &6056901508744204526
 RectTransform:
   m_ObjectHideFlags: 0
@@ -75883,6 +76210,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1572478318384657673}
   m_CullTransparentMesh: 1
+--- !u!195 &6390746684815343303
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5177138329153636703}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 1
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &6420288195223583215
 GameObject:
   m_ObjectHideFlags: 0
@@ -75927,6 +76276,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &6492059429798245596
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920853534391513141}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.29, y: 1.25, z: 9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6822147636824395220}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6500099163225880771
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76316,6 +76681,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -0.49993896}
   m_SizeDelta: {x: -2, y: -3}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!4 &6822147636824395220
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5177138329153636703}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7162975932152589022}
+  m_Father: {fileID: 6492059429798245596}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!222 &6838651960478926404
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -76324,6 +76705,48 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1496655416098432326}
   m_CullTransparentMesh: 1
+--- !u!23 &6996204343178142651
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5177138329153636703}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d5628402602c3404d9ca8865c3b8cc3a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &7155110080571621700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76373,6 +76796,21 @@ RectTransform:
   m_AnchoredPosition: {x: 186.72498, y: -1.7959976}
   m_SizeDelta: {x: -1206.55, y: -34.229}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!4 &7162975932152589022
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8527518133360466092}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.37, z: 0.37}
+  m_LocalScale: {x: 0.47606632, y: 0.47606632, z: 0.47606632}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 6822147636824395220}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7191380775814105212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77370,6 +77808,61 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!54 &8312745602343372246
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5177138329153636703}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &8312745602343372247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5177138329153636703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07cdbf61596b7c54a8d4e4571e6e0577, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _wayPoints: []
+  _state: 0
+  _initialSate: 0
+  _target: {fileID: 1950049629}
+  _eyes: {fileID: 7162975932152589022}
+  _obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  _wanderRadius: 5
+  _wanderRepatTime: 1
+  _timer: 0
+  _rotateInterval: 3
+  _fov: 90
+  _viewDistance: 10
+  _agent: {fileID: 6390746684815343303}
+  CanSeeTarget: 0
 --- !u!1 &8314546790250423338
 GameObject:
   m_ObjectHideFlags: 0
@@ -77591,6 +78084,25 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8527518133360466092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7162975932152589022}
+  - component: {fileID: 4294720924252727842}
+  - component: {fileID: 705166276669764395}
+  - component: {fileID: 5862598800614099095}
+  m_Layer: 7
+  m_Name: Eyes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!114 &8546452209508528000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78431,28 +78943,15 @@ SceneRoots:
   - {fileID: 508756738}
   - {fileID: 1654121708}
   - {fileID: 34830685}
-  - {fileID: 606423321}
   - {fileID: 687830182}
+  - {fileID: 1949742690}
   - {fileID: 7668569568172408142}
   - {fileID: 8209379707825921199}
   - {fileID: 1101035274}
-  - {fileID: 178757708575226630}
+  - {fileID: 1500716527}
+  - {fileID: 606423321}
+  - {fileID: 28616829}
   - {fileID: 147440970}
-  - {fileID: 457769905677221515}
-  - {fileID: 1047253521}
-  - {fileID: 705758511}
-  - {fileID: 481038613}
-  - {fileID: 274591263}
-  - {fileID: 2077761617}
-  - {fileID: 1825758202}
-  - {fileID: 1634029436}
-  - {fileID: 787352863}
-  - {fileID: 1781285543}
-  - {fileID: 1343518314}
-  - {fileID: 392216329}
-  - {fileID: 1131597879}
-  - {fileID: 1541823483}
-  - {fileID: 1759188681}
-  - {fileID: 1296245391}
-  - {fileID: 115804620}
-  - {fileID: 1961106930}
+  - {fileID: 1128548127}
+  - {fileID: 178757708575226630}
+  - {fileID: 6492059429798245596}
