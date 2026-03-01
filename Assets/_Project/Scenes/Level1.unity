@@ -12572,6 +12572,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyPatrol
       objectReference: {fileID: 0}
+    - target: {fileID: 8346380784447404543, guid: 8f2ff63be2f0f6f44a36c44eee3cc636,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29805,6 +29810,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyWander
       objectReference: {fileID: 0}
+    - target: {fileID: 4982475317853664978, guid: 01aeb9c8d8dc5d044a48cca1a4c6ac03,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -43873,7 +43883,7 @@ Transform:
   m_GameObject: {fileID: 1296245390}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -56.068886, y: 76.24412, z: 110.158905}
+  m_LocalPosition: {x: -56.71, y: 76.24412, z: 110.158905}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -51019,7 +51029,7 @@ Transform:
   m_GameObject: {fileID: 1541823482}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -56.068886, y: 76.24412, z: 19.408903}
+  m_LocalPosition: {x: -56.71, y: 76.24412, z: 19.408903}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -57800,7 +57810,7 @@ Transform:
   m_GameObject: {fileID: 1759188680}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -56.06889, y: 76.24412, z: 64.75539}
+  m_LocalPosition: {x: -56.71, y: 76.24412, z: 64.75539}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -61247,6 +61257,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: EnemyIdle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8021720078665607829, guid: 41d3996ccd0fe3f409c00bbc30d491c8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -72505,6 +72520,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4747265602401541146, guid: 2166215297e17b14abc4c8dcddb739a1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

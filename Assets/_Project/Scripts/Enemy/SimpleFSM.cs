@@ -4,7 +4,6 @@ using System.Threading;
 using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.AI;
-
 public class SimpleSFM : MonoBehaviour
 {
     public enum STATE
@@ -117,7 +116,7 @@ public class SimpleSFM : MonoBehaviour
     public void SetState(STATE newState)
     {
         if (_state == newState) return;
-        Debug.Log("CHANGE STATE From " + _state + " To " + newState);
+        //Debug.Log("CHANGE STATE From " + _state + " To " + newState);
 
         if (_state == STATE.WANDER && _wanderSearchRoutine != null)
         {
@@ -223,12 +222,12 @@ public class SimpleSFM : MonoBehaviour
         randomVect += transform.position;
         if (NavMesh.SamplePosition(randomVect, out hit, _wanderRadius, NavMesh.AllAreas))
         {
-            Debug.Log("OK !! Destinazione VALIDA !!");
+            //Debug.Log("OK !! Destinazione VALIDA !!");
             _currentDestination = hit.position;
             _agent.SetDestination(_currentDestination);
             return true;
         }
-        Debug.Log("Destinazione NON VALIDA !!");
+        //Debug.Log("Destinazione NON VALIDA !!");
         return false;
     }
 
