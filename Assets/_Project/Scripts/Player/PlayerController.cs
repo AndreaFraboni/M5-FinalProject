@@ -7,6 +7,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private NavMeshPath _navMeshPath;
     [SerializeField] private Camera _camera;
 
+    [Header("Game UI Manager")]
+    [SerializeField] private GameUIManager _GameUIManager;
+
     private Vector3 _currentDirection;
 
     public string surfaceTag;
@@ -47,6 +50,12 @@ public class PlayerController : MonoBehaviour
     {
   
 
+    }
+
+    public void DestroyGOPlayer()
+    {
+        _GameUIManager.GameOver();
+        Destroy(gameObject);
     }
 
 }

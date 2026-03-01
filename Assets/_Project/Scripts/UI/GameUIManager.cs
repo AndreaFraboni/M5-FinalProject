@@ -77,6 +77,7 @@ public class GameUIManager : MonoBehaviour
     public void GameOver()
     {
         AudioManager.Instance.StopAllAudioSource();
+        Cursor.visible = true;
         gameOver.SetActive(true);
         Invoke("ShowGameOverMenu", 1f);
     }

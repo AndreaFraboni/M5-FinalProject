@@ -269,6 +269,12 @@ public class SimpleSFM : MonoBehaviour
     }
 
 
-
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag(Tags.Player))
+        {
+            other.gameObject.GetComponent<PlayerController>().DestroyGOPlayer();
+        }
+    }
 
 }
