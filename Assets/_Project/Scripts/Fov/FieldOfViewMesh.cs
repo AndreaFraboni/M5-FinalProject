@@ -1,6 +1,8 @@
 using UnityEngine;
 using System.Collections.Generic;
-
+//*******************************************************************************//
+//  https://discussions.unity.com/t/stealth-game-field-of-view-issue/691749/5
+//*******************************************************************************//
 public class FieldOfViewMesh : MonoBehaviour
 {
     public float viewRadius = 10f;
