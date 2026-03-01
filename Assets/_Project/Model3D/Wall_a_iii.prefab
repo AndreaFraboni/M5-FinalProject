@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6350196969995841528}
   - component: {fileID: 4608147883916235407}
   - component: {fileID: 487317637531074816}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Entrance_b (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118,7 +118,7 @@ GameObject:
   - component: {fileID: 3208226240956518344}
   - component: {fileID: 4884851033446720641}
   - component: {fileID: 5083058904841392818}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Entrance_b
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -224,7 +224,7 @@ GameObject:
   - component: {fileID: 1346670373558399104}
   - component: {fileID: 4775673116740110886}
   - component: {fileID: 3936603194241106011}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall_c (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -329,7 +329,7 @@ GameObject:
   - component: {fileID: 940300447406709542}
   - component: {fileID: 9133213999041802315}
   - component: {fileID: 8040509125529099980}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall_a_iii
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -443,7 +443,7 @@ GameObject:
   - component: {fileID: 8573731985524829320}
   - component: {fileID: 2802049658835393852}
   - component: {fileID: 799160045836053205}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall_c (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -548,7 +548,7 @@ GameObject:
   - component: {fileID: 2541759015629793990}
   - component: {fileID: 5723789501126219307}
   - component: {fileID: 4416794815234380430}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall_c
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -653,7 +653,7 @@ GameObject:
   - component: {fileID: 2986220426764828062}
   - component: {fileID: 2521579682990173370}
   - component: {fileID: 4455428728474480443}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall_c (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -754,10 +754,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6604559303151731497}
     m_Modifications:
+    - target: {fileID: 1156330316654011109, guid: a79ee51c31591f643bc8a0950caf9de4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874201261628887701, guid: a79ee51c31591f643bc8a0950caf9de4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5071552822794571355, guid: a79ee51c31591f643bc8a0950caf9de4,
         type: 3}
       propertyPath: m_Name
       value: DOOR_B
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071552822794571355, guid: a79ee51c31591f643bc8a0950caf9de4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6924121726450343558, guid: a79ee51c31591f643bc8a0950caf9de4,
         type: 3}
@@ -878,6 +893,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6604559303151731497}
     m_Modifications:
+    - target: {fileID: 850467687213207059, guid: f918878a4c59e4043adb5894fa0fc509,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 878834771397667080, guid: f918878a4c59e4043adb5894fa0fc509,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -947,6 +967,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4552170437591926371, guid: f918878a4c59e4043adb5894fa0fc509,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5344210939464810274, guid: f918878a4c59e4043adb5894fa0fc509,
         type: 3}
@@ -1050,6 +1075,11 @@ PrefabInstance:
       objectReference: {fileID: 8776697233646241460}
     - target: {fileID: 5619578664987676678, guid: f918878a4c59e4043adb5894fa0fc509,
         type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5619578664987676678, guid: f918878a4c59e4043adb5894fa0fc509,
+        type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -1057,6 +1087,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LEVA_DOOR_B
+      objectReference: {fileID: 0}
+    - target: {fileID: 6129083932625483275, guid: f918878a4c59e4043adb5894fa0fc509,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6415216874187029696, guid: f918878a4c59e4043adb5894fa0fc509,
         type: 3}
@@ -1078,10 +1113,25 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: 1.7547607
       objectReference: {fileID: 0}
+    - target: {fileID: 6639979615235254974, guid: f918878a4c59e4043adb5894fa0fc509,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6830231801118717352, guid: f918878a4c59e4043adb5894fa0fc509,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8033216730117739402, guid: f918878a4c59e4043adb5894fa0fc509,
         type: 3}
       propertyPath: m_fontSize
       value: 22.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8991349808401183168, guid: f918878a4c59e4043adb5894fa0fc509,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -25,6 +25,8 @@ public class SimpleSFM : MonoBehaviour
 
     [SerializeField] private Transform _target;
     [SerializeField] private Transform _eyes;
+    [SerializeField] private LayerMask _obstacleLayer;
+
 
     [SerializeField] private float _wanderRadius = 5f;
     [SerializeField] private float _wanderRepatTime = 1f;
@@ -234,7 +236,6 @@ public class SimpleSFM : MonoBehaviour
             return false; // player fuori dalla distanza massima di visuale dell'enemy
         }
 
-
         Vector3 dir = dirToPlayer.normalized;
         float angle = Vector3.Angle(forward, dir);
         if (angle > _fov * 0.5f)
@@ -244,7 +245,15 @@ public class SimpleSFM : MonoBehaviour
         }
 
         //if (Physics.Raycast(transform.position, dirToPlayer.normalized, out RaycastHit hit, _viewDistance))
-        // TO DO 
+        //if (Physics.Linecast(transform.position, target.position))
+        //{
+        //    Debug.Log("blocked");
+        //}
+        if (Physics.Linecast(_eyes.transform.position, _target.position, _obstacleLayer))
+        {
+            SetState(_initialSate);
+            return false;
+        }
 
         CanSeeTarget = true;
         SetState(STATE.CHASE);
