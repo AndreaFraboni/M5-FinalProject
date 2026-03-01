@@ -40,14 +40,20 @@ public class LeverHandler : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        _eCanvas.SetActive(true);
-        isPlayerInside = true;
+        if (other.CompareTag(Tags.Player))
+        {
+            _eCanvas.SetActive(true);
+            isPlayerInside = true;
+        }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        _eCanvas.SetActive(false);
-        isPlayerInside = false;
+        if (other.CompareTag(Tags.Player))
+        {
+            _eCanvas.SetActive(false);
+            isPlayerInside = false;
+        }
     }
 
     public void AE_OnLeverMoved()

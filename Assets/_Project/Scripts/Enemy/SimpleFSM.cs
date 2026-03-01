@@ -50,6 +50,14 @@ public class SimpleSFM : MonoBehaviour
     private void Awake()
     {
         if (_agent == null) _agent = GetComponent<NavMeshAgent>();
+        if (_target == null)
+        {
+            GameObject go = GameObject.FindGameObjectWithTag(Tags.Player);
+            if (go != null)
+            {
+                _target = go.transform;
+            }
+        }
         _StartingAgentPos = _agent.transform.position;
     }
 
