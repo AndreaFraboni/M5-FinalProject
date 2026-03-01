@@ -9,7 +9,7 @@ public class FieldOfViewMesh : MonoBehaviour
     [Range(0.01f, 2f)] public float meshResolution = 1f;
     public float viewMeshOffset = 0.1f;
     public MeshFilter viewMeshFilter;
-    public MeshCollider viewMeshCollider;
+   // public MeshCollider viewMeshCollider;
 
     Mesh mesh;
 
@@ -18,7 +18,7 @@ public class FieldOfViewMesh : MonoBehaviour
         mesh = new Mesh { name = "FOV Mesh (Simple)" };
         if (!viewMeshFilter) viewMeshFilter = GetComponent<MeshFilter>();
         viewMeshFilter.sharedMesh = mesh;
-        if (viewMeshCollider) viewMeshCollider.sharedMesh = mesh;
+        //if (viewMeshCollider) viewMeshCollider.sharedMesh = mesh;
     }
 
     void LateUpdate()
@@ -83,6 +83,6 @@ public class FieldOfViewMesh : MonoBehaviour
         mesh.RecalculateNormals();
         mesh.RecalculateBounds();
 
-        if (viewMeshCollider) viewMeshCollider.sharedMesh = mesh;
+       // if (viewMeshCollider) viewMeshCollider.sharedMesh = mesh;
     }
 }
