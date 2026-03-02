@@ -189,7 +189,7 @@ public class SimpleSFM : MonoBehaviour
             _timer = 0f;
             if (!NextRandomDestination())
             {
-                StartCoroutine(SearchDestination());
+                _wanderSearchRoutine = StartCoroutine(SearchDestination());
             }
         }
     }
@@ -218,16 +218,15 @@ public class SimpleSFM : MonoBehaviour
     private bool NextRandomDestination()
     {
         NavMeshHit hit;
-        Vector3 randomVect = new Vector3(UnityEngine.Random.Range(1f, _wanderRadius), 0f, UnityEngine.Random.Range(1f, _wanderRadius));
+        Vector3 randomVect = new Vector3(UnityEngine.Random.Range(-_wanderRadius, _wanderRadius), 0f, UnityEngine.Random.Range(-_wanderRadius, _wanderRadius));
         randomVect += transform.position;
         if (NavMesh.SamplePosition(randomVect, out hit, _wanderRadius, NavMesh.AllAreas))
         {
-            //Debug.Log("OK !! Destinazione VALIDA !!");
             _currentDestination = hit.position;
             _agent.SetDestination(_currentDestination);
             return true;
         }
-        //Debug.Log("Destinazione NON VALIDA !!");
+
         return false;
     }
 
