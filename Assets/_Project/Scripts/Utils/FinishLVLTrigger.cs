@@ -7,7 +7,7 @@ public class FinishLVLTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag(Tags.Player))
+        if (other.CompareTag(Tags.Player))
         {
             _gameUIManager.Winner();
         }
