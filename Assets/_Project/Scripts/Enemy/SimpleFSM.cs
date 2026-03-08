@@ -19,7 +19,7 @@ public class SimpleSFM : MonoBehaviour
 
     private Vector3 _currentDestination;
 
-    [SerializeField] private STATE _state = STATE.IDLE;
+    [SerializeField] STATE _state = STATE.IDLE;
     [SerializeField] private STATE _initialSate;
 
     [SerializeField] private Transform _target;
@@ -44,7 +44,7 @@ public class SimpleSFM : MonoBehaviour
 
     [SerializeField] private NavMeshAgent _agent;
 
-    [SerializeField] bool CanSeeTarget = false;
+    public bool CanSeeTarget = false;
 
     private void Awake()
     {

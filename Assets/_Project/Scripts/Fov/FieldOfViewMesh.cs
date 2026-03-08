@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.Rendering;
 //*******************************************************************************//
 //  https://discussions.unity.com/t/stealth-game-field-of-view-issue/691749/5
 //*******************************************************************************//
@@ -11,16 +12,31 @@ public class FieldOfViewMesh : MonoBehaviour
     [Range(0.01f, 2f)] public float meshResolution = 1f;
     public float viewMeshOffset = 0.1f;
     public MeshFilter viewMeshFilter;
-   // public MeshCollider viewMeshCollider;
+    // public MeshCollider viewMeshCollider;
 
     Mesh mesh;
 
+    [SerializeField] GameObject _fovMesh;    
+    [SerializeField] private Material _normalFOVMaterial;
+    [SerializeField] private Material _alarmFOVMaterial;
+    private Material _initialFOVMaterial;
+    private MeshRenderer _fovMeshRenderer;
+
+    [SerializeField] SimpleSFM _enemySFM;
+
     void Awake()
     {
+        if (_enemySFM == null) _enemySFM = GetComponent<SimpleSFM>();
         mesh = new Mesh { name = "FOV Mesh (Simple)" };
         if (!viewMeshFilter) viewMeshFilter = GetComponent<MeshFilter>();
         viewMeshFilter.sharedMesh = mesh;
         //if (viewMeshCollider) viewMeshCollider.sharedMesh = mesh;
+        _fovMeshRenderer = _fovMesh.GetComponent<MeshRenderer>();
+    }
+
+    private void Update()
+    {
+        UpdateFOVColor();
     }
 
     void LateUpdate()
@@ -87,4 +103,17 @@ public class FieldOfViewMesh : MonoBehaviour
 
        // if (viewMeshCollider) viewMeshCollider.sharedMesh = mesh;
     }
+
+    public void UpdateFOVColor()
+    {
+        if (_enemySFM.CanSeeTarget)
+        {
+            _fovMeshRenderer.material= _alarmFOVMaterial;
+        }
+        else
+        {
+            _fovMeshRenderer.material = _normalFOVMaterial;
+        }
+    }
+
 }

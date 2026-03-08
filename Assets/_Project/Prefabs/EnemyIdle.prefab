@@ -31,7 +31,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 266302056551931990}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8.22337, y: 1.1839046, z: -7.21}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -201,7 +201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 499721e163724084ea8acbc15911f4c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewRadius: 20
+  viewRadius: 20.9
   viewAngle: 90
   obstacleMask:
     serializedVersion: 2
@@ -209,6 +209,10 @@ MonoBehaviour:
   meshResolution: 1
   viewMeshOffset: 0.1
   viewMeshFilter: {fileID: 8859738756010635295}
+  _fovMesh: {fileID: 4495938626783518772}
+  _normalFOVMaterial: {fileID: 2100000, guid: b01392184f6d8764ba3d7a976e7a43ce, type: 2}
+  _alarmFOVMaterial: {fileID: 2100000, guid: c777ca18fb4f3bd4b8736226294918a2, type: 2}
+  _enemySFM: {fileID: 0}
 --- !u!1 &4495938626783518772
 GameObject:
   m_ObjectHideFlags: 0
